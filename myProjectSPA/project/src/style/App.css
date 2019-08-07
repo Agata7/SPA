@@ -1,0 +1,29 @@
+div.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  color: black;
+}
+
+header {
+  flex-basis: 30vh;
+}
+
+main {
+  padding: 30px 0;
+  display: flex;
+  flex-grow: 1;
+}
+
+aside {
+  flex-basis: 20%;
+}
+
+.page {
+  flex-basis: 80%;
+  margin-left: 30px;
+}
+
+footer {
+  flex-basis: 25vh;
+}
