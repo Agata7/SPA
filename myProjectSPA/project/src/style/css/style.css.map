@@ -1,10 +1,10 @@
 {
     "version": 3,
-    "mappings": "AEAA,AAAA,MAAM,CAAC;EACH,gBAAgB,EAAE,IAAI;EACtB,cAAc,EAAE,SAAS;EACzB,UAAU,EAAE,MAAM;EAClB,SAAS,EAAE,IAAI;CAUlB;;AAdD,AAMI,MANE,CAMF,CAAC,CAAC;EACE,KAAK,EAAE,KAAK;CAKf;;AAZL,AASQ,MATF,CAMF,CAAC,CAGG,IAAI,CAAC;EACD,KAAK,EAAE,KAAK;CACf",
+    "mappings": "AEAA,AAAA,MAAM,CAAC;EACH,gBAAgB,EAAE,oFAAoF,EAAE,6BAA6B;EACrI,eAAe,EAAE,KAAK;EACtB,mBAAmB,EAAE,GAAG;EACxB,cAAc,EAAE,SAAS;EACzB,UAAU,EAAE,MAAM;EAClB,SAAS,EAAE,IAAI;EAEf,SAAS,EAAE,uCAAuC;CAUrD;;AAlBD,AAUI,MAVE,CAUF,CAAC,CAAC;EACE,KAAK,EAAE,KAAK;CAKf;;AAhBL,AAaQ,MAbF,CAUF,CAAC,CAGG,IAAI,CAAC;EACD,KAAK,EAAE,KAAK;CACf",
     "sources": [
         "../sass/style.scss",
         "../sass/_variables.scss",
-        "../sass/footer.scss"
+        "../sass/_footer.scss"
     ],
     "names": [],
     "file": "style.css"

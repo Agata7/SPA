@@ -10,37 +10,44 @@ nav a {
     display: block;
     text-decoration: none;
     background-color: white;
-    width: 100%;
+    width: 0%;
     font-size: 20px;
     margin: 5px;
     padding: 10px;
     text-transform: uppercase;
     font-weight: bold;
     color: black;
-    transition: .2s;
+    transition: .4s;
+    backface-visibility: hidden;
 }
 
 nav a:hover {
     transform: translateX(20px);
+    /* translate: width 10s; */
 }
 
 nav a.active {
-    border-left: 20px solid;
+    border-left: 10px solid;
     transform: translateX(0);
+    width: 70%;
 }
 
 nav li:nth-child(1) a.active {
-    border-left-color: green;
+    border-left-color: #7564D3;
+    border-bottom: 2px solid #7564D3;
 }
 
 nav li:nth-child(2) a.active {
-    border-left-color: blue;
+    border-left-color: #7564D3;
+    border-bottom: 2px solid #c24949;
 }
 
 nav li:nth-child(3) a.active {
-    border-left-color: yellow;
+    border-left-color: #7564D3;
+    border-bottom: 2px solid #175e17;
 }
 
 nav li:nth-child(4) a.active {
-    border-left-color: red;
+    border-left-color: #7564D3;
+    border-bottom: 2px solid #cfbc4d;
 }

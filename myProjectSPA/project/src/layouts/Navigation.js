@@ -9,6 +9,7 @@ const list =[
     {name: "admin", path:"/admin"},
 
 ]
+
 const Navigation = () => {
     const menu= list.map(item=> (
         <li key={item.name}>

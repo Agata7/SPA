@@ -8,6 +8,7 @@ import img3 from '../images/header3.jpg';
 import img4 from '../images/header4.jpg';
 import img5 from '../images/kwiat4a.jpg';
 import img6 from '../images/kwiat5.jpg';
+import logo from '../images/logo.png'
 
 const Header = () => {
     
@@ -15,22 +16,34 @@ const Header = () => {
         <>
         <Switch>
         <Route path='/' exact render={()=> (
-            <img src={img1} alt="flowers"/>
+           <><div className="logo"><img src={logo} alt='logo'/></div>
+           <h1><span className="top">FLOWERS</span><span className='bottom'> close to nature</span></h1>
+           <img className="picture" src={img6} alt="flowers"/></>
         )} />
         <Route path='/products' render={()=> (
-            <img src={img2} alt="flowers"/>
+         <><div className="logo"><img src={logo} alt='logo'/></div>
+         <h1><span className="top">FLOWERS</span><span className='bottom'> close to nature</span></h1> 
+         <img className="picture" src={img2} alt="flowers"/></>
         )} />
         <Route path='/contact' render={()=> (
-            <img src={img5} alt="flowers"/>
+           <><div className="logo"><img src={logo} alt='logo'/></div>
+           <h1><span className="top">FLOWERS</span><span className='bottom'> close to nature</span></h1>
+           <img className="picture" src={img5} alt="flowers"/></>
         )} />
         <Route path='/admin' render={()=> (
-            <img src={img4} alt="flowers"/>
+          <><div className="logo"><img src={logo} alt='logo'/></div>
+          <h1><span className="top">FLOWERS</span><span className='bottom'> close to nature</span></h1>
+          <img className="picture" src={img4} alt="flowers"/></>
         )} />
         <Route path='/login' render={()=> (
-            <img src={img6} alt="flowers"/>
+          <><div className="logo"><img src={logo} alt='logo'/></div>
+          <h1><span className="top">FLOWERS</span><span className='bottom'> close to nature</span></h1>
+          <img className="picture" src={img1} alt="flowers"/></>
         )} />
         <Route path='/product/:id' render={()=> (
-            <img src={img3} alt="flowers"/>
+           <><div className="logo"><img src={logo} alt='logo'/></div>
+           <h1><span className="top">FLOWERS</span><span className='bottom'> close to nature</span></h1>
+           <img className="picture" src={img3} alt="flowers"/></>
         )} />
         
         </Switch>

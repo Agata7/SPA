@@ -1,13 +1,81 @@
+/* main colors 
+    #7564D3 
+    #4E27BC
+    #7978AD
+    
+*/
+
+
 header {
     position: relative;
     overflow: hidden;
 }
 
-header img {
+header .picture {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     min-width: 100%;
     min-height: 100%;
+    opacity: 0.6;
+}
+
+.logo {
+    position: absolute;
+    width: 20%;
+    height: 20vh;
+    z-index: 5;
+    top: 0px;
+    left: 0px;
+}
+
+.logo img {
+    width: 50%;
+    height: 20vh;
+    top: 50%;
+    left: 50%;
+}
+
+header h1 {
+    position: absolute;
+    z-index: 5;
+    color: #4E27BC;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+header .top {
+    display: block;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 35px;
+    animation: moveOfTop 1.5s;
+    animation-direction: reverse;
+}
+
+header .bottom {
+    display: block;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 15px;
+    animation: moveOfTop 2s;
+}
+
+@keyframes moveOfTop {
+    0% {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+
+    80% {
+        transform: translateX(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0px);
+    }
 }
